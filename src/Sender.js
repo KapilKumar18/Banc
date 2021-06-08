@@ -36,7 +36,7 @@ const Sender = ({postdata}) => {
                 </div>
          
             </div>
-                <h6 className="text-end"> {postdata.endDate} </h6>
+                <p className="text-end"> {postdata.endDate} </p>
         </div>
     )
 }
