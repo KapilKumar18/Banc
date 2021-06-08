@@ -5,7 +5,6 @@
 }
 
 .transaction{
-    width: 100vw;
     padding: 80px;
 }
 
@@ -64,13 +63,13 @@ button{
 }
 
 .receiver{
-    width: 500px;
+    width: 60%;
     margin-right:auto;
     padding: 0 20px ;
 }
 
 .sender{
-    width:500px;
+    width:60%;
     margin-left: auto;
     padding:0 20px; 
 }
@@ -91,7 +90,8 @@ button{
 }
 
 .text-end{
-    text-align:end
+    text-align:end;
+    font-weight: 400;
 }
 
 .cursor-p{
@@ -100,4 +100,150 @@ button{
 
 .margin-r{
     margin-right: 15px
+}
+
+.fa-long-arrow-left{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+@media only screen and (min-width: 668px) and (max-width: 959px){
+ 
+    *{
+        font-size: 98%;
+    }
+
+
+    .date {
+        width: 100%; 
+        text-align: center; 
+        border-bottom: 1px dashed #000; 
+        line-height: 0.1em;
+        margin: 10px 0; 
+    } 
+
+    .date span { 
+        background:#fff; 
+        padding:0 10px; 
+    }
+
+    .font_S_W{
+        font-size: 160%;
+    }
+
+    .transaction{
+        padding: 30px;
+    }
+
+    .text-end{
+        font-size: 12px;
+    }
+
+}
+
+
+@media screen and (max-width: 667px){
+    
+    .padding-10{
+        padding: 5px;
+    }
+    
+    .font_S_W{
+        font-size: 125%;
+    }
+    
+    p{
+        font-size: 80%;
+    }
+
+    .transaction{
+        padding: 15px;
+    }
+    
+    .receiver, .sender{
+        width: 80%;
+    }
+
+    .fa-long-arrow-left{
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+     .text-end{
+        font-size: 12px;
+    }
+   
+}
+
+
+@media screen and (max-width: 425px){
+    
+    .padding-10{
+        padding: 5px;
+    }
+    
+    .font_S_W{
+        font-size: 125%;
+    }
+    
+    p{
+        font-size: 80%;
+    }
+    .transaction{
+        padding: 10px;
+    }
+    
+    .receiver, .sender{
+        width: 95%;
+    }
+
+    .fa-long-arrow-left{
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    .fa-2x{
+        font-size: 20px;
+    }
+
+    button{
+        padding: 3px 10px;
+    }
+
+    .margin-r{
+        margin-right: 8px
+    }
+
+    .date {
+        width: 100%; 
+        text-align: center; 
+        border-bottom: 1px dashed #000; 
+        line-height: 0.1em;
+        margin: 10px 0; 
+    } 
+
+    .date span { 
+        background:#fff; 
+        padding:0 10px; 
+    }
+
+    .text-end{
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 425px){
+
+    .sender, .receiver{
+        width: 85%;
+    }
+    .text-end{
+        font-size: 12px;
+    }
+
+    button{
+        padding: 1px 5px;
+    }
+
 }
