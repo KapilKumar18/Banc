@@ -11,7 +11,7 @@ const TransactionHistory = () => {
         <>
             <div className="transaction">   
                 <div className="header">
-                    <i className="fa fa-long-arrow-left fa-2x" aria-hidden="true"></i>
+                    <i className="fa fa-long-arrow-left" aria-hidden="true"></i>
                     <h2> J </h2>
                     <div>
                       <p> John Doe </p>
